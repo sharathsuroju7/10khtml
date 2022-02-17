@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title>FORM1</title>
+             <style>
+               label::before{
+                 color: red;
+                 content: "*";
+
+               }
+             </style>
+      </head>
+      <body style="background-color:brown">
+            <h2 style="text-align:center" >EVENT REGISTRATION</h2>
+             <h4 style="text-align:center">Register right now while places are available</h4>
+             <!--form-->
+     
+             <form style="background-color:white" align="center" method="POST">
+                   <input type="hidden" name="registration id" value="A0251"/>
+                  <label for="fname"><b>FirstName</b></label><br>
+                   <input type="text" name="fname" id="fname"  placeholder="first"/><br>
+                  <label for="lname"><b>Last Name</b><label><br>
+                   <input type="text" name="lname" id="lname" placeholder="last"/><br>
+                  <label for="mail"><b>E-mail</b></label><br>
+                   <input type="text" name="mail" id=mail placeholder="email"/><br>
+                   <label for="phone"><b>Phone number</b></label><br>
+                     <input type="number" name="phone" placeholder="phone"/><br>
+                    <label for="place"><b>City</b></label><br>
+                    <input type="text" name="place" id="place" placeholder="city"/><br>
+                     <label for="nation"><b>Country</b></label><br>
+                     <input type="text" name="nation" id="nation" placeholder="country"/><br>
+                     <label for="code"><b>Zipcode</b></label><br>
+                     <input type="number" name="code" id="code" placeholder="zipcode"/><br><br>
+                       <label for="place"><b>Location</b></label>
+                         <input type="radio" name="location" value="hyderabad" id="place" />Hyderabad
+                       <input type="radio" name="location" value="karimnagar"  id="place"/>Karimnagar
+                        <input type="radio" name="location" value="warangal" id="place" />Warangal
+                       <br><br>
+                       <label for="games"><b>Sports played</b></label>
+                       <input type="checkbox" name="sports" value="cricket" id="games" />Cricket
+                       <input type="checkbox" name="sports" value="football" id="games"/>Football
+                        <input type="checkbox" name="sports" value="badminton" id="games"/>Badminton
+                        <input type="checkbox" name="sports" value="hockey"id="games" />Hockey
+                           <br><br>
+                         <label><b>Upload permission certificate</b></label>
+                           <input type="file" name="castecer"/>
+                           <br><br>
+                          <label><b>select event</b></label>
+                            <select>
+                                     <option value="">select using this dropdown</option>
+                                     <option value="marriage">Marriage</option>
+                                     <option value="reception">Reception</option>
+                                     <option value="farewell">Farewell</option>
+                                     <option value="gettogether">Gettogether</option>
+                            </select>
+                                 <br><br>
+                     <input type="submit" value="submit form"><br><br>
+                       <input type="reset"value="reset all"/>
+                   
+                    
+
+
+
+
+
+             </form>
+
+
+       </body>
+</html>

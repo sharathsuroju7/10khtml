@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title>FORM2</title>
+             <style>
+               .before::before{
+                 content: "*";
+                 color: red;
+               }
+             </style>
+      </head>
+      <body>
+            <h2>REGISTRATION FORM</h2>
+              <ul style="display:flex">
+                  <li>Home</li>
+                   <li>Policies</li>
+                  <li>Register</li>
+                  <li>Profile</li>
+              </ul>
+             <p>Please complete the following form to create a new account on the stratuslab
+               reference cloud infrastructures.</p>
+             <h4>Fields marked with an asterisk(*) are mandatory.</h4>
+             <!--form-->
+     
+             <form method="POST">
+                  <label class="before" for="uname"><b>Username</b></label>
+                   <input type="text" name="username" id="uname" /><br><br>
+                  <label class="before" for="mail"><b>E-mail Address</b></label>
+                   <input type="text" name="Email" id=mail /><br><br>
+                    <label class="before"for="gname"><b>Given Name(s)</b><label>
+                   <input type="text" name="givenname" id="gname" /><br><br>
+                    <label for="fname"><b>Family Name</b></label>
+                    <input type="text" name="familyname" id="fname" /><br><br>
+                     <label for="x500dn"><b>X500 DN</b></label>
+                     <input type="text" name="X500 DN" id="x500dn" /><br><br>
+                     <label class="before" for="code"><b>Password</b></label>
+                     <input class="before" type="text" name="password" id="code"/><br><br><br>
+                      <label for="Pcheck"><b>Password check</b></label>
+                     <input type="text" name="Pcheck" id="Pcheck" /><br><br>
+                      <label for="msg"><b>Message</b></label>
+                        <textarea type="text" placeholder="write message here" id="msg"></textarea><br><br>
+                     
+                       <input type="checkbox"  name="declaration" value="i agree to the defined terms,conditions and policies(*)">
+                           <label for="subject">i agree to the defined terms,conditions and policies(*)</label><br></br>
+                     <input type="submit" value="create account"/>
+
+                   
+                 </form>
+
+
+       </body>
+</html>

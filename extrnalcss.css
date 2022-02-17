@@ -1,0 +1,31 @@
+p{
+    background-color: darkgrey;
+    text-align: justify;
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    
+}
+#adv{
+    color: darkred;
+   
+}
+.advp{
+    background-color: darkturquoise;
+    text-align: center;
+}
+.toc{
+    color: mediumorchid;
+    
+}
+#list{
+    background-color: khaki;
+}
+h2,.mnd{
+    background-color: rgb(50, 205, 153);
+    text-align: left;
+    text-align: justify;
+    
+}
